@@ -1,0 +1,53 @@
+body{
+    background-color: whitesmoke;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    font-size: x-large;
+    padding: 10px;
+    background-color: goldenrod;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: brown;
+    color: whitesmoke;
+}
+h3{
+    font-size: x-large;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    min-height: 700px;
+    align-items: center;
+    background-color: darkgreen;
+    border: 10px solid rgb(225, 226, 138);
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.startUpPage{
+    font-size: xx-large;
+}
+.gamePageDisplay{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.StartOverBtn{
+    display: none;
+}
+.drawAnotherCardBtn{
+    display: none;
+}
+.gamePage{
+    display: none;
+}
